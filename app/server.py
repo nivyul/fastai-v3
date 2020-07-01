@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1eGfKethoIceEv1yeJVXEUE29pvf-0f8i?alt=media&key=AIzaSyCXluBOHaXSGJl1cgwDC18OMl9_nrH4niQ'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1eGfKethoIceEv1yeJVXEUE29pvf-0f8i'
 export_file_name = 'export.pkl'
 
 classes = ['Coke','Sprite']
